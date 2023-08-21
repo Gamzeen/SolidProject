@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseToOCP", "InverseToOC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{6F3781D6-F1B7-4E02-B1A5-53D455EBE3FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseToLSP", "InverseToLSP\InverseToLSP.csproj", "{EBB87075-AAEF-4DFA-B417-446AB020D62D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{6F3781D6-F1B7-4E02-B1A5-53D455EBE3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F3781D6-F1B7-4E02-B1A5-53D455EBE3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F3781D6-F1B7-4E02-B1A5-53D455EBE3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB87075-AAEF-4DFA-B417-446AB020D62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB87075-AAEF-4DFA-B417-446AB020D62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB87075-AAEF-4DFA-B417-446AB020D62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB87075-AAEF-4DFA-B417-446AB020D62D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
