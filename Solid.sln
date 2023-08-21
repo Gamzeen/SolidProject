@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseToLSP", "InverseToLSP\InverseToLSP.csproj", "{EBB87075-AAEF-4DFA-B417-446AB020D62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{A6BEF957-F58F-44A7-B94A-783512B43CC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseToISP", "InverseToISP\InverseToISP.csproj", "{A6BEF957-F58F-44A7-B94A-783512B43CC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
