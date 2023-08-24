@@ -6,19 +6,19 @@ public class Saver
     {
         if (fileType == "sql")
         {
-            Console.WriteLine("Veri SQL veritabanına kaydedildi: " + content);
+            Console.WriteLine("Date saved to SQL : " + content);
         }
         else if (fileType == "csv")
         {
-            Console.WriteLine("Veri CSV dosyasına kaydedildi: " + content);
+            Console.WriteLine("Date saved to CSV file : " + content);
         }
         else if (fileType == "pdf")
         {
-            Console.WriteLine("Veri PDF dosyasına kaydedildi: " + content);
+            Console.WriteLine("Date saved to PDF file : " + content);
         }
         else
         {
-            Console.WriteLine("Desteklenmeyen dosya türü.");
+            Console.WriteLine("Unsupported file type.");
         }
     }
 }

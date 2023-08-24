@@ -2,7 +2,7 @@
 
 Saver fileSaver = new Saver();
 
-string content = "Bu bir test verisidir.";
+string content = "This is a test data.";
 
 fileSaver.SaveToFile(content, "sql");
 fileSaver.SaveToFile(content, "csv");

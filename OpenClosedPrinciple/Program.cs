@@ -3,6 +3,6 @@
 var fileSavers = new List<ITransactions> { new SqlTransactions(), new CsvTransactions() };
 var fileManager = new Saver(fileSavers);
 
-string content = "Bu bir test verisidir.";
+string content = "This is a test data.";
 
 fileManager.SaveToFile(content);
