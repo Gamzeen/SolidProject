@@ -4,16 +4,16 @@ public class JrDeveloper : IWorker
 {
     public void Mentor()
     {
-        Console.WriteLine("Jr. Developer mentörluk verme işlemi yapamaz.");
+        Console.WriteLine("A Jr. Developer cannot perform the mentoring process.");
     }
 
     public void Recruitment()
     {
-        Console.WriteLine("Jr. Developer işe alma işlemi yapamaz.");
+        Console.WriteLine("A Jr. Developer cannot perform the hiring process.");
     }
 
     public void Development()
     {
-        Console.WriteLine("Jr. Developer: Yazılım geliştirme yapılıyor.");
+        Console.WriteLine("Jr. Developer: Software development is in progress.");
     }
 }

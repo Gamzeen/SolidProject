@@ -4,16 +4,16 @@ public class TeamLead : IWorker
 {
     public void Mentor()
     {
-        Console.WriteLine("TeamLead : Mentorluk veriliyor.");
+        Console.WriteLine("TeamLead : Mentorship is being provided.");
     }
 
     public void Recruitment()
     {
-        Console.WriteLine("TeamLead : İşe alma işlemi gerçekleştiriliyor.");
+        Console.WriteLine("TeamLead : The hiring process is being conducted.");
     }
 
     public void Development()
     {
-        Console.WriteLine("TeamLead : Yazılım geliştirme yapılıyor.");
+        Console.WriteLine("TeamLead : Software development is in progress.");
     }
 }
