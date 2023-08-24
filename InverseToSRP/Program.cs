@@ -1,12 +1,11 @@
 ﻿using InverseToSRP;
 
-Transactions islemler = new Transactions();
-string kullaniciAdi = "example_user";
+string userName = "Ayşe Fatma";
 
-islemler.SendNewPassword(kullaniciAdi);
+Transactions transactions = new Transactions();
 
-double bakiye = islemler.GetBalance(1200);
-Console.WriteLine($"Bakiye: {bakiye}");
+transactions.SendNewPassword(userName);
 
-string profil = islemler.GetProfileInformation(kullaniciAdi);
-Console.WriteLine(profil);
+transactions.GetBalance();
+
+transactions.GetProfileInformation(userName);

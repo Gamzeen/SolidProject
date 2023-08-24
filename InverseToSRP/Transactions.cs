@@ -2,21 +2,19 @@ namespace InverseToSRP;
 
 public class Transactions
 {
-    public double GetBalance(double bakiye)
+    public void GetBalance()
     {
-        // Bakiye çekme işlemi
-        return bakiye;
+        var balance = 150.0;
+        Console.WriteLine($"This user has this {balance}.");
     }
     
     public void SendNewPassword(string userName)
     {
-        // E-posta gönderme işlemi
-        Console.WriteLine($"Yeni şifre {userName} e-postası adresine gönderildi.");
+        Console.WriteLine($"A new password has been sent to the email address associated with {userName}.");
     }
     
-    public string GetProfileInformation(string userName)
+    public void GetProfileInformation(string userName)
     {
-        // Veritabanından profil bilgilerini çekme işlemi
-        return $"Kullanıcı adı: {userName}. Detaylı profil bilgileri burada yer alır.";
+        Console.WriteLine($"Username: {userName}. Detailed profile information is presented here.");
     }
 }

@@ -1,10 +1,10 @@
 namespace SingleResponsibility;
 
-// Bakiye sorgulama işlemi
 public class Balance
 {
-    public double GetBalance(double bakiye)
+    public void GetBalance()
     {
-        return bakiye;
+        var balance = 150.0;
+        Console.WriteLine($"This user has this {balance}.");
     }
 }
