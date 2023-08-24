@@ -4,6 +4,6 @@ public class Email
 {
     public void Send()
     {
-        Console.WriteLine("E-posta gönderildi.");
+        Console.WriteLine("An email has been sent.");
     }
 }

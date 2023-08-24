@@ -4,6 +4,6 @@ public class Sms
 {
     public void Send()
     {
-        Console.WriteLine("Sms gönderildi.");
+        Console.WriteLine("An sms has been sent.");
     }
 }
