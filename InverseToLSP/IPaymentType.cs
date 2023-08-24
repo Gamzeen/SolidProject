@@ -2,7 +2,7 @@ namespace InverseToLSP;
 
 public interface IPaymentType
 {
-    void TekCekim();
-    void KrediKartiTaksitli();
+    void SinglePayment();
+    void CreditCard();
     void Pay3D();
 }

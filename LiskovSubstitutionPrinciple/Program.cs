@@ -4,13 +4,13 @@ var aBank = new ABank();
 var bBank = new BBank();
 var cBank = new CBank();
 
-aBank.TekCekim();
-aBank.KrediKartiTaksitli();
+aBank.SinglePayment();
+aBank.CreditCard();
 aBank.Pay3D();
 
-bBank.TekCekim();
-bBank.KrediKartiTaksitli();
+bBank.SinglePayment();
+bBank.CreditCard();
 bBank.Pay3D();
 
-cBank.TekCekim();
-cBank.KrediKartiTaksitli();
+cBank.SinglePayment();
+cBank.CreditCard();

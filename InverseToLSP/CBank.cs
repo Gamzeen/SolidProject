@@ -2,18 +2,18 @@ namespace InverseToLSP;
 
 public class CBank : IPaymentType
 {
-    public void TekCekim()
+    public void SinglePayment()
     {
-        Console.WriteLine("C Bankası: Tek çekim işlemi gerçekleştirildi.");
+        Console.WriteLine("Bank C: Single payment transaction completed.");
     }
 
-    public void KrediKartiTaksitli()
+    public void CreditCard()
     {
-        Console.WriteLine("C Bankası: Kredi kartı taksitli işlemi gerçekleştirildi.");
+        Console.WriteLine("Bank C: Credit card transaction completed.");
     }
 
     public void Pay3D()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Bank C: 3D secure payment couldn't be processed.");
     }
 }
